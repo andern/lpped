@@ -1,0 +1,39 @@
+Mon Aug 27, 2012 - 0.3.1
+==========================
+* NEW FEATURE: The center of the coordinate system is automatically
+               set to the center of the feasible region.
+* BUG FIX: Fixed a bug that caused files with empty lines to become
+           unreadable by pplex.
+* BUG FIX: Fixed a bug that caused files with objective coefficients
+           implicitly stated to be zero to be unreadable by pplex.
+* BUG FIX: pplex is no longer running in the background after it
+           is closed by clicking the x. (Thanks to takoi).
+* MISC: The 'update' function has been renamed to 'reinstate'.
+* MISC: The gradient effect on unbounded feasible regions
+        should now look a bit better.
+
+Mon Aug 20, 2012 - 0.3.0
+==========================
+* NEW FEATURE: Infinite precision (not visualization part).
+               No more rounding errors.
+* BUG FIX: Fixed a bug that caused `pivot` to return
+           invertible matrices in some rare cases.
+
+Tue Jul 31, 2012 - 0.2.0
+===========================
+* NEW FEATURE: A graphical interface for pplex that
+               can visualize a linear program in two
+               dimensions.
+* MISC: The terminology in the help menu has been
+        greatly improved.
+* MISC: Changed name from lpped to pplex.
+
+Mon Apr 23, 2012 - 0.1.1
+===========================
+* BUG FIX: Fixed a bug that caused `show optimality`
+           to always report an optimal program
+* MISC: Cleaned up the source code a bit.
+
+Fri Apr 13, 2012 - 0.1.0
+===========================
+Initial release.
